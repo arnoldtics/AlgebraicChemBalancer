@@ -11,7 +11,7 @@ clarificationForInputs = '''\nInstructions for inputs:
     Leave a space between each compound and the reaction symbol.
     Use the symbol => to indicate a reaction.
 Example:
-HCl + Na3PO4 => H3PO4 + NaCl\n'''
+    HCl + Na3PO4 => H3PO4 + NaCl\n'''
 
 class Reaction:
     def __init__(self, reaction: str):
